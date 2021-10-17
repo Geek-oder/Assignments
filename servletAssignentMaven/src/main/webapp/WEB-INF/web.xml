@@ -1,0 +1,140 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  
+  <servlet>
+  	<servlet-name>Test</servlet-name>
+  	<!-- fully qualified class name -->
+  	<servlet-class>com.deloitte.q6.q6</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>q7</servlet-name>
+  	<display-name>q7</display-name>
+  	<description></description>
+  	<servlet-class>com.deloitte.q7.q7</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>q3</servlet-name>
+  	<display-name>q3</display-name>
+  	<description></description>
+  	<servlet-class>com.deloitte.q3.q3</servlet-class>
+  </servlet>
+  
+ 	 <servlet>  
+	<servlet-name>s1</servlet-name>  
+	<servlet-class>com.deloitte.q4.FirstServlet</servlet-class>  
+	</servlet>  
+	
+	<servlet>  
+	<servlet-name>s2</servlet-name>  
+	<servlet-class>com.deloitte.q4.SecondServlet</servlet-class>  
+	</servlet>
+	<servlet>
+		<servlet-name>q8</servlet-name>
+		<display-name>q8</display-name>
+		<description></description>
+		<servlet-class>com.deloitte.q8.q8</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>q9</servlet-name>
+		<display-name>q9</display-name>
+		<description></description>
+		<servlet-class>com.deloitte.q9.q9</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>q5Servlet1</servlet-name>
+		<display-name>q5Servlet1</display-name>
+		<description></description>
+		<servlet-class>com.deloitte.q5.q5Servlet1</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>q5Servlet2</servlet-name>
+		<display-name>q5Servlet2</display-name>
+		<description></description>
+		<servlet-class>com.deloitte.q5.q5Servlet2</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>q5java</servlet-name>
+		<display-name>q5java</display-name>
+		<description></description>
+		<servlet-class>com.deloitte.q5.q5java</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>q5dbms</servlet-name>
+		<display-name>q5dbms</display-name>
+		<description></description>
+		<servlet-class>com.deloitte.q5.q5dbms</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>q5linux</servlet-name>
+		<display-name>q5linux</display-name>
+		<description></description>
+		<servlet-class>com.deloitte.q5.q5linux</servlet-class>
+	</servlet>  
+  
+  
+  <servlet-mapping>
+  		<servlet-name>Test</servlet-name>
+  		<url-pattern>/Test</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>q7</servlet-name>
+  	<url-pattern>/q7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>q3</servlet-name>
+  	<url-pattern>/q3</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet-mapping>  
+<servlet-name>s1</servlet-name>  
+<url-pattern>/servlet1</url-pattern>  
+</servlet-mapping>  
+
+<servlet-mapping>  
+<servlet-name>s2</servlet-name>  
+<url-pattern>/servlet2</url-pattern>  
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>q8</servlet-name>
+	<url-pattern>/q8</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>q9</servlet-name>
+	<url-pattern>/q9</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>q5Servlet1</servlet-name>
+	<url-pattern>/q5Servlet1</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>q5Servlet2</servlet-name>
+	<url-pattern>/q5Servlet2</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>q5java</servlet-name>
+	<url-pattern>/q5java</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>q5dbms</servlet-name>
+	<url-pattern>/q5dbms</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>q5linux</servlet-name>
+	<url-pattern>/q5linux</url-pattern>
+</servlet-mapping>  
+  
+  
+  
+  
+  
+</web-app>
